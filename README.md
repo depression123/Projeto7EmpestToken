@@ -6,10 +6,15 @@ Este contrato cria e gerencia um token chamado "7Empest Coin" com o símbolo "7E
 ## Características:
 
 Total Supply: 30.000.000 tokens.
+
 Funções Principais:
+
 transfer: Transfere tokens entre endereços.
+
 approve: Aprova um endereço para gastar tokens em nome do proprietário.
+
 transferFrom: Permite que um endereço transfira tokens de outro endereço.
+
 approveAndCall: Aprova e chama uma função em um contrato de callback.a rede Ethereum desejada (Mainnet, Testnet como Sepolia, ou uma rede local).
 Interagir com o Contrato:
 
@@ -17,6 +22,7 @@ Interagir com o Contrato:
 
 **Endereço do Contrato na Sepolia Testnet:**
 - [Ver Contrato no Etherscan](https://sepolia.etherscan.io/address/0x4474b9605f7ea6b35e623d7d03c75a17329837a6)
+
 Código do Contrato: Disponível no arquivo token.sol.
 
 ## Exemplos de Uso
@@ -37,6 +43,7 @@ Aprovação e Chamada:
 function approveAndCall(address spender, uint tokens, bytes data) public returns (bool success);
 
 ## Links Úteis:
+
 https://metamask.io/​ 
 https://rpc.info/   
 https://remix.ethereum.org/
