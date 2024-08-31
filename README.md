@@ -1,6 +1,7 @@
 7EmpestToken
 
-O 7EmpestToken é um contrato inteligente ERC-20 implementado na rede blockchain Sepolia Testnet. Este contrato cria e gerencia um token chamado "7Empest Coin" com o símbolo "7Empest" e 2 casas decimais.
+O 7EmpestToken é um contrato inteligente ERC-20 implementado na rede blockchain Sepolia Testnet. 
+Este contrato cria e gerencia um token chamado "7Empest Coin" com o símbolo "7Empest" e 2 casas decimais.
 
 Características:
 
