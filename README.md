@@ -1,9 +1,9 @@
-7EmpestToken
+## 7EmpestToken
 
 O 7EmpestToken é um contrato inteligente ERC-20 implementado na rede blockchain Sepolia Testnet. 
 Este contrato cria e gerencia um token chamado "7Empest Coin" com o símbolo "7Empest" e 2 casas decimais.
 
-Características:
+## Características:
 
 Total Supply: 30.000.000 tokens.
 Funções Principais:
@@ -13,15 +13,18 @@ transferFrom: Permite que um endereço transfira tokens de outro endereço.
 approveAndCall: Aprova e chama uma função em um contrato de callback.a rede Ethereum desejada (Mainnet, Testnet como Sepolia, ou uma rede local).
 Interagir com o Contrato:
 
-Implementação:
+## Implementação
 
 **Endereço do Contrato na Sepolia Testnet:**
 - [Ver Contrato no Etherscan](https://sepolia.etherscan.io/address/0x4474b9605f7ea6b35e623d7d03c75a17329837a6)
 Código do Contrato: Disponível no arquivo token.sol.
 
-Exemplos de Uso
-Transferência de Tokens:
-solidity
+## Exemplos de Uso
+
+Transferência de Tokens
+
+Codigo Solidity:
+
 function transfer(address to, uint tokens) public returns (bool success);
 
 Aprovação e Transferência de Tokens:
@@ -33,7 +36,7 @@ Aprovação e Chamada:
 
 function approveAndCall(address spender, uint tokens, bytes data) public returns (bool success);
 
-Links Úteis:
+## Links Úteis:
 https://metamask.io/​ 
 https://rpc.info/   
 https://remix.ethereum.org/
